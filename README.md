@@ -4,10 +4,16 @@ Lógica: Consultas de SQL
 ### 1.🎬 Proyecto SQL - Consultas sobre la Base de Datos de un video club
 El objetivo principal es poner en práctica los conocimientos de SQL para el análisis de datos almacenados en múltiples tablas y la generación de métricas relevantes para la toma de decisiones.
 
+#### Esquema BBDD: 
+![alt text][logo]
+
+[logo]: https://github.com/data-analyst-montero/project2-SQL/blob/main/EsquemaBBDD.jpg "Esquema BBDD"
+
 ### 2. 📖 Descripción del Proyecto
 Este proyecto consiste en la realización de consultas SQL sobre una base de datos de ejemplo, utilizando PostgreSQL y DBeaver como entorno de trabajo de una base de datos real de gestión de alquileres de películas.
 
 El proyecto aborda diferentes necesidades de análisis de negocio, como la identificación de clientes más activos, el estudio de patrones de alquiler, el análisis de categorías de películas, la obtención de estadísticas de ingresos y la exploración de relaciones entre actores, películas y clientes. De esta forma, se demuestra cómo una base de datos relacional puede utilizarse para extraer conocimiento útil a partir de grandes volúmenes de información.
+
 
 #### Para llevar a cabo el proyecto se han empleado diversas técnicas y enfoques de consulta SQL:
 *	Consultas de selección y filtrado de datos mediante SELECT, WHERE, ORDER BY y LIMIT. 
@@ -20,15 +26,20 @@ El proyecto aborda diferentes necesidades de análisis de negocio, como la ident
 *	Aplicación de funciones de fecha y operaciones estadísticas para el análisis de alquileres y pagos. 
 Gracias a este conjunto de ejercicios, el proyecto permite adquirir experiencia práctica en el manejo de bases de datos relacionales, reforzando conceptos clave de SQL y desarrollando habilidades esenciales para tareas de análisis de datos y administración de bases de datos.
 
+
 ### 3. 🗂️ Estructura del Proyecto
 ```
 ├── docs/ 
 │    └── EnunciadoDataProject_SQL_Logica.pdf
 │    └── Esquema de la BBDD.pdf
 ├── BBDD_Proyecto_shakila_sinuser.sql
-├── consultas.sql
+├── EsquemaBBDD.jpg
 ├── README.md 
+├── consultas.sql
+
 ```
+
+NOTA: El esquema de la BBDD se encuentra en la carpeta docs: Esquema de la BBDD.pdf
 
 ### 4. ⚙️ Instalación y Requisitos
 #### Para ejecutar este proyecto es necesario instalar:
